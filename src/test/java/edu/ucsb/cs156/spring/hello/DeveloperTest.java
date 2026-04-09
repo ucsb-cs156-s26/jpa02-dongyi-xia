@@ -24,6 +24,9 @@ public class DeveloperTest {
     public void getName_returns_correct_name() {
         assertEquals("Dongyi", Developer.getName());
     }
+    public void getGithubId_returns_correct_githubId() {
+        assertEquals("dongyi-xia", Developer.getGithubId());
+    }
 
 
 
